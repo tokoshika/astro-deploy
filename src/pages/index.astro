@@ -5,28 +5,32 @@ import Card from "../components/Card.astro";
 
 <Layout title="Astro Website">
   <main>
-    <h1>教務 <span class="text-gradient">年度末</span></h1>
+    <h1>教務 <span class="text-gradient">年度末業務まとめ</span></h1>
     <p class="instructions">
       年度末業務のまとめ <code>src/pages</code>
       <br />
       <strong>Code Challenge:</strong>
     </p>
     <ul role="list" class="link-card-grid">
-      <Card href="./ayumi" title="後期あゆみ・要録など" body="日程・締め切り" />
+      <Card
+        href="./ayumi"
+        title="後期あゆみ・要録など"
+        body="各種、締め切り・教務点検などの確認をお願いします。"
+      />
       <Card
         href="./ipad"
         title="iPad・タッチペン"
         body="シリアル番号・パスワード・タッチペン番号などの確認・入力"
       />
       <Card
-        href="./youroku"
-        title="要録"
-        body="Supercharge your project with new frameworks and libraries."
+        href="./syusseki"
+        title="時数集計と出席簿"
+        body="時数集計及び、出席簿については3月24日を目途に完了させましょう。"
       />
       <Card
-        href="./syusseki"
-        title="出席簿"
-        body="Explore a galaxy of community-built starter themes."
+        href="./sotugyo"
+        title="卒業式"
+        body="【令和4年度】第112回卒業式授与式（実施要項）"
       />
       <Card
         href="https://astro.build/chat/"
