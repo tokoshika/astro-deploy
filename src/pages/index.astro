@@ -7,11 +7,17 @@ import Card from "../components/Card.astro";
   <main>
     <h1>教務 <span class="text-gradient">年度末</span></h1>
     <p class="instructions">
-      年度末業務のまとめ <code>src/pages</code> in your project.<br />
-      <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      年度末業務のまとめ <code>src/pages</code>
+      <br />
+      <strong>Code Challenge:</strong>
     </p>
     <ul role="list" class="link-card-grid">
-      <Card href="./ayumi" title="あゆみ" body="あゆみ提出の日程" />
+      <Card href="./ayumi" title="後期あゆみ・要録など" body="日程・締め切り" />
+      <Card
+        href="./ipad"
+        title="iPad・タッチペン"
+        body="シリアル番号・パスワード・タッチペン番号などの確認・入力"
+      />
       <Card
         href="./youroku"
         title="要録"
@@ -21,11 +27,6 @@ import Card from "../components/Card.astro";
         href="./syusseki"
         title="出席簿"
         body="Explore a galaxy of community-built starter themes."
-      />
-      <Card
-        href="./ipad"
-        title="iPad"
-        body="Come say hi to our amazing Discord community. ❤️"
       />
       <Card
         href="https://astro.build/chat/"
